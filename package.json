@@ -8,7 +8,8 @@
     "url": "https://github.com/mosesmaxwell/ngstarter"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "0.12.x",
+    "npm": "2.1.x"
   },
   "scripts": {
     "start": "node server.js",
@@ -16,6 +17,7 @@
   },
   "dependencies": {
     "express": "^4.13.1",
+    "bower": "^1.4.1",
     "grunt-express": "^1.4.1"
   },
   "devDependencies": {
